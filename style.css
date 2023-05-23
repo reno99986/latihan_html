@@ -44,8 +44,15 @@ footer {
     font-family: 'Times New Roman', Times, serif;
 }
 img {
-    align-items: center ;
+    align-self: center ;
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+#cp {
+    font-weight: bolder;
+}
+
+#form {
+    background-color:deepskyblue
 }
