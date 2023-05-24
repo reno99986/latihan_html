@@ -9,7 +9,15 @@
 </head>
 <body>
     <header>
-        Welcome!!<br><br>
+        Welcome!!<br>
+        <nav>        
+            <ul>
+            <li><a href="#abt">Tentang Saya</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#keinginan">Keinginan</a></li>
+            <li><a href="#form">Komentar</a></li>
+        </ul>
+        </nav>
     </header>
     <main>
         <aside>
@@ -22,39 +30,33 @@
         <br>Tempat Tanggal Lahir:<br> Muara Jawa, 22 Juni 2004</p>
         <br>
         <br>
-        <p>Navigation</p>
-        <ul>
-            <li><a href="#abt">Tentang Saya</a></li>
-            <li><a href="#pendidikan">Pendidikan</a></li>
-            <li><a href="#keinginan">Keinginan</a></li>
-            <li><a href="#form">Komentar</a></li>
-        </ul>
+
         </aside>
 
         <div id="content">
-            <section>
-                <h2 id="abt">Tentang Saya</h2>
+            <section  id="abt">
+                <h2>Tentang Saya</h2>
                 <p>Saya Merupakan seorang mahasiswa ITK angkatan 2020. Lahir di Muara jawa pada tanggal 22 Juni 2004.
                     <br>Usia saya saat ini 18 Tahun.</p>
-            </section>
-            <section>
-                <h2 id="pendidikan">Pendidikan</h2>
+            </section><article>
+            <section id="pendidikan"><article>
+                <h2>Pendidikan</h2>
                 <ol>
                     <li>2016 - 2019 SMP Negeri 1 Muara Jawa</li>
                     <li>2019 - 2022 SMK Prasetya Budi Luhur Muara Jawa</li>
                     <li>2022 - Sekarang Institut Teknologi Kalimantan</li>
                 </ol>
+                </article>
             </section>
-            <section>
-                <h2 id="keinginan">Keinginan</h2>
+            <section id="keinginan">
+                <article>                <h2>Keinginan</h2>
                 <p>Keinginan saya saat ini adalah untuk menjadi seorang web Developer.<br>
                     Web developer adalah programmer yang bertugas membuat dan mengembangkan website atau world wide web.
                     Secara garis besar, tanggung jawab web developer adalah membangun sebuah website atau aplikasi dan memastikan performa website tetap optimal.</p>
+                </article>
             </section>
             <section id="form">
-
                 <p>Tinggalkan Komentar</p>
-
                 <form onsubmit="submitform()">
                     <label for="nama">Nama</label>
                     <input required type="text" id="nama">
